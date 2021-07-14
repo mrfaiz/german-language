@@ -1,0 +1,30 @@
+U3:
+-------------
+1. Donnerstag
+2. Mittag
+3. der Abend
+4. Montag
+5. nachts
+6. Smastag
+7. Guten Tag! / Guten Mittag !
+8. die Minute
+9. der Tag
+
+U4
+-----------
+1. von, bis, am
+2. am
+3. um
+4. von, bis
+5. am, um
+6. um
+----------------------------
+
+
+1. falsch
+2. richtig
+3. richtig
+
+4. richtig
+5. falsch
+6. falsch

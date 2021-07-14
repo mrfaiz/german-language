@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://lms.uni-kiel.de/auth/Document/442171 -->
+<html lang="en" style="--doceditorvh:20.43px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="nofollow">
+<meta name="google" content="notranslate">
+<meta name="description" content="OpenOlat - infinite learning">
+<meta name="keywords" content="OpenOlat, OLAT, eLearning, learning platform, LMS, Learning Management System, LCMS, Learning Content Management System, Open Source, elearning, JAVA, IMS, QTI, SCORM, Content package, collaboration, usability, performance, scalability."> 
+<meta name="dcterms.creator" content="OpenOLAT - https://www.openolat.org">
+<meta name="dcterms.subject" content="OpenOLAT - infinite learning - Your Open Source Learning Management System">
+<meta name="dcterms.contributor" content="see https://www.openolat.org">
+<meta name="dcterms.date" content="2010-03-16">
+<meta name="dcterms.type" content="Interactive Resource">
+<meta name="dcterms.identifier" content="https://www.openolat.org">
+<meta name="dcterms.rights" content="https://www.openolat.org">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script>
+var o_info = new Object();
+o_info.initialPageLoadFinished = false;
+o_info.o_winid = '1045011054';
+window.name  = '1045011054';
+o_info.o_user = { identity : 3014131782, lastName : "Ahmed", firstName : "Faiz"}; o_info.uriprefix="/auth/";
+o_info.bc="";
+o_info.businessPath="";
+o_info.startBusinessPath="";
+o_info.serverUri="https://lms.uni-kiel.de"
+o_info.dirty_form = "Attention! You have not saved this form yet. By clicking OK your modifications will be lost.";
+o_info.locale = "en";
+o_info.lastClickTime = new Date().getTime();
+o_info.drop = true;
+o_info.o_baseURI = "/raw/eafa206:eafa206193cafd39cbc0e332af1b0af2b54403d1/";
+o_info.i18n_noresponse_title = "Communication error";
+o_info.i18n_noresponse = "The requested action could not be executed since the server does not respond or is overloaded. Please try to execute the action again or reload the page. ";
+o_info.i18n_topnav_more = "More";
+o_info.oo_noresponse_title = "Session timeout";
+o_info.oo_noresponse = "Your session has been timed out or the server has been restarted. To login again please use this <b><a href=\'reload.html\'>link<\/a><\/b> or reload the page.<br><br>Be aware that all unsaved changes in your browser window will be lost during the login process. Close this dialog to manually copy unsaved content such as forum postings to the browser clip board and to manually reload the page. ";
+o_info.zseed = 0;
+o_info.newWindow=null;
+o_info.submit=null;
+if (top!=self){top.location=self.location+"?o_winrndo=1";}
+function o_start() {
+	o_init();
+		
+				o_info.initialPageLoadFinished = true;
+}
+
+function o_mathjax(fct_success) {
+	window.MathJax = {
+		extensions: ["jsMath2jax.js"],
+		messageStyle: 'none',
+		showProcessingMessages: false,
+		showMathMenu: false,
+		menuSettings: { },
+		jsMath2jax: {
+			preview: "none"
+		},
+		tex2jax: {
+			ignoreClass: "math"
+		},
+		"HTML-CSS": {
+		    EqnChunk: 5, EqnChunkFactor: 1, EqnChunkDelay: 100
+		},
+		"fast-preview": {
+			disabled: true
+		}
+	}
+	jQuery.ajax("//mathjax.openolat.org/mathjax/2.7-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML", {
+		cache: true,
+		dataType: "script",
+		crossDomain: true,
+		success: function() {
+	    	if(!(typeof fct_success === "undefined")) {
+	    		fct_success();
+	    	}
+		}
+	});
+}
+
+
+try{
+	if(o_info.startBusinessPath != null && o_info.startBusinessPath.length > 0
+			&& window.history && !(typeof window.history === "undefined") && window.history.pushState) {
+		window.history.pushState('', document.title, o_info.startBusinessPath);
+		o_info.startBusinessPath = null;
+	}
+	if (document.location.href.indexOf('oow') != -1) {
+		window.history.replaceState(window.history.state, document.title, window.location.href.split("?")[0]);
+	}
+} catch(e) { }
+</script>
+<script src="./OpenOlat - null_files/jquery-3.4.1.min.js"></script>
+	<script src="./OpenOlat - null_files/js.plugins.min.js"></script>
+	<script src="./OpenOlat - null_files/player.min.js"></script>
+	<script src="./OpenOlat - null_files/iframeResizer.min.js"></script>
+
+	<link href="./OpenOlat - null_files/js.plugins.min.css" rel="stylesheet">
+<script>
+	jQuery.noConflict();
+	
+		jQuery(document).ooTranslator().initialize("/g/openolat1544-devorg.olat.core.commons.chiefcontrollers.JSTranslatorMapper");
+	o_info.oo_translator = jQuery(document).ooTranslator();
+		jQuery(window).on("popstate", function(e) {
+		if(e.originalEvent.state && e.originalEvent.state.businessPath) {
+			if (e.originalEvent.state.businessPath.indexOf('oow') == -1) {
+				var windowedPath = e.originalEvent.state.businessPath + '?oow=' + window.name;
+				window.history.replaceState(e.originalEvent.state, document.title, windowedPath);
+				window.location.reload();
+			} else {
+				window.location.href = e.originalEvent.state.businessPath;
+			}
+		}
+	});
+	
+	var closing = function(e) {
+		if(navigator.sendBeacon) {
+			var beaconUrl = '/auth/2%3A1%3A1045011056%3A2%3A0%3Acid%3Aclose-window%3A_csrf%3A116c36e4-ec23-4d68-9384-8ac232dd2bba/';
+			if(beaconUrl.indexOf("/dmz/") == -1) {
+				navigator.sendBeacon(beaconUrl, null);
+			}
+		}
+	};
+	window.onbeforeunload = closing;
+	window.onunload = closing;
+jQuery(function() {
+	if ((window.unsafeWindow == null ? window : unsafeWindow).MathJax == null) {
+		var count = jQuery('div.math,span.math,math,div.mathEntryInteraction').length;
+		if (count > 0) {
+		    o_mathjax();
+		}
+	}
+});
+</script>
+
+<!-- empty -->
+<link id="o_theme_css" href="./OpenOlat - null_files/theme.css" rel="stylesheet">
+<link id="o_email_css" href="./OpenOlat - null_files/email.css" rel="stylesheet">
+<script src="./OpenOlat - null_files/theme.js"></script>
+<link rel="icon" href="https://lms.uni-kiel.de/raw/eafa206:eafa206193cafd39cbc0e332af1b0af2b54403d1/themes/cau/favicon.ico" type="image/x-icon">
+<meta name="msapplication-TileColor" content="#ffffff">
+
+	<script>
+        jQuery(document).ready(function() {
+            /* Detect IE below version 11 */
+            if (window.navigator.userAgent.indexOf('MSIE ') > 0) {
+                jQuery('body').addClass('o_browser_ie10');
+            } else if (!!navigator.userAgent.match(/Trident\/7\./)) {
+            	jQuery('body').addClass('o_browser_ie11');
+            }
+        });
+	</script>
+<!-- empty -->
+<style id="o_fontSize_css"></style>
+<style>
+		.o_custom_navbar-brand { background-image: none; }
+</style>
+
+
+
+
+<title>OpenOlat - null</title>
+</head>
+
+<body onload="o_start();" id="o_body" class="o_doceditor_body o_lang_en" data-restype="Document" data-resid="442171">
+<div id="o_bg"></div>
+<!-- START guiDebug -->
+
+<!-- END guiDebug -->
+<!-- START inlineTranslation -->
+
+<!-- END inlineTranslation -->
+<!-- START jsServer -->
+<div id="o_c1045011158"><div id="o_c1045011156"><div id="o_c1045011155"><div style="height:0px">
+<script>
+var stopped = true;
+function initPolling () {
+	o_info.lastClickTime = new Date().getTime();
+	pollgrowth = 0;
+	pollcount  = 0;
+	if (stopped) {
+		stopped = false;
+		tick();
+	}
+}
+
+jQuery("#o_body").bind("mouseover click keypress", function(event){initPolling();});
+
+o_info.mainwinref = this.window;
+o_info.wins = {};
+o_info.poller = null;
+
+var growthrate = 10;
+var pollminutes = 60;
+var pollcount = 0;
+var pollError = 0;
+var pollgrowth = 0;
+var timestampLastPoll = new Date().getTime();
+
+function tick () {
+	o_info.poller = jQuery.periodic({period: 5000, decay:1.005, max_period: Number.MAX_VALUE}, function() {
+		if ( !o_info.linkbusy && (this.period > 1000) && (pollError < 2) ) {
+			try {
+				var now = new Date().getTime();
+				if ((now - o_info.lastClickTime) < (pollminutes * 60 * 1000)) {
+					if ((now - timestampLastPoll) > (this.period + pollgrowth)) {
+						timestampLastPoll = now;
+						pollcount++;
+						pollgrowth = Math.ceil((this.period+pollgrowth)*(100+growthrate)/100) - this.period;
+						o_info.ajaxpp = jQuery.ajax({
+							method:'POST',
+							url:'/m/f3096587c295bfae3ecd72ddd89e40c0/?_csrf=116c36e4-ec23-4d68-9384-8ac232dd2bba&oow=' + window.name,
+							cache: false,
+							success:onPollSuccess,
+							error:onPollFailure
+						});
+
+					}
+				} else {
+					stopped = true;
+				}
+			} catch (e) {
+				o_info.poller.cancel(); //stop on errors
+			}
+		}
+
+		if(pollError >= 2) {
+			window.close();
+		}
+	});
+}
+
+jQuery(document).ready(initPolling);
+
+jQuery(function() { 
+	setTimeout( function(){ if (!o_info.ajaxpp) {
+			showMessageBox('error', 'error', 'Some core functionality could not be started. Please log out of OLAT and login again.');
+		}},60000);
+	}
+);
+
+function onPollSuccess(content, s, response) {
+	if(response.status == 304) {
+	 	pollError = 0;
+	} else if(response.status >= 200 && response.status < 300) {
+	 	pollError = 0;
+	 	o_onc(response);
+	} else {
+	 	pollError++;
+	}
+}
+
+function onPollFailure(response) {
+  pollError++;
+  if(response.status == 404) { 
+	  	  	  	  o_info.poller.cancel(); 
+  }
+}
+/* ]]> */
+</script>
+<div id="o_c1045011157"><div id="o_c1045011154"><script>
+if (o_info.poller && o_info.poller.period != 5000) {
+	o_info.poller.period = 5000;
+	o_info.poller.reset();
+}
+</script>
+</div></div>
+<div id="oaawrp" style="visibility:hidden;width:0px;height:0px">
+<iframe src="./OpenOlat - null_files/empty.html" name="oaa0" id="oaa0" width="1" height="1" onload="clearAfterAjaxIframeCall()"></iframe>
+</div>
+	<form id="o_oaap" method="post" action="https://lms.uni-kiel.de/auth/Document/442171#" onsubmit="return false" target="oaa0"><input type="hidden" name="v"></form>
+</div></div></div></div>
+<!-- END jsServer -->
+
+<!-- START olatContentPanel -->
+
+<a href="https://lms.uni-kiel.de/auth/Document/442171#o_main_container" class="sr-only">Skip to main content</a>
+	<div id="o_beta_logo"></div>
+
+<div id="o_messages" class="hidden-print"><div id="o_c1045011060"><div id="o_c1045011053"><!-- empty --></div></div></div>
+<a id="o_top" aria-hidden="true"></a>	
+<div id="o_header_wrapper"> 
+	<div id="o_header_container" class="o_container_offcanvas container-fluid"> 
+		<div id="o_logo"></div>
+		<div id="o_right_logo"></div>
+		
+			</div>
+</div>
+
+<div id="o_offcanvas_right" class="o_navbar o_navbar-offcanvas " role="navigation" style="">
+	<a href="javascript:;" class="o_offcanvas_close" title="Close"><i class="o_icon o_icon_close o_icon-lg"> </i> </a>
+	<div id="o_offcanvas_right_container" class="o_navbar-collapse">
+			<div id="o_c1045011139"><ul id="o_c1045011115" class="nav o_navbar-nav o_navbar-right o_sel_menu_tools"><li id="o_navbar_print" class="o_navbar_tool o_tool_right"><a href="javascript:o_doPrint();" title="Print this page">
+	<i class="o_icon o_icon_print o_icon-fw"></i>
+	<span>Print</span>
+</a></li><li id="o_navbar_help_opener" class="o_navbar_tool dropdown o_tool_right">
+					<a id="o_help_tool_toggler" href="https://lms.uni-kiel.de/auth/Document/442171#" class="dropdown-toggle" data-toggle="dropdown" title="Search" aria-label="Search">
+						<i class="o_icon o_icon_help o_icon-lg"></i>
+						<span>Search</span>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-right">          
+			 				
+			 				
+			 				
+			 				
+			 				
+					</ul>
+				</li><li id="o_navbar_help_manual" class="o_navbar_tool o_tool_right"><a class="" href="https://confluence.openolat.org/display/OO154EN/" target="oohelp" title="OpenOlat Manual" rel="noopener noreferrer"><i class="o_icon o_icon-fw o_icon_manual"> </i> <span>OpenOlat Manual</span></a></li><li id="o_navbar_help_course" class="o_navbar_tool o_tool_right"><a class="" target="oohelp" id="o_c1045011085" href="https://lms.uni-kiel.de/auth/2%3A1%3A1045011085%3A2%3A0%3Acid%3Ahelp.course%3A_csrf%3A116c36e4-ec23-4d68-9384-8ac232dd2bba/" onclick="return o2cl();" title="Help Videoproduction"><i class="o_icon o_icon-fw o_course_icon"></i> <span>Help Videoproduction</span></a> <script>
+(function(){ var o_c1045011085 = jQuery('#o_c1045011085');if (o_c1045011085) o_c1045011085.click(function() {setTimeout(removeBusyAfterDownload,1200)});})();
+</script></li><li id="o_navbar_help_academy" class="o_navbar_tool o_tool_right"><a class="" href="https://www.openolat.com/openolat-academy/" target="ooAcademy" title="External Video Resources (OpenOLAT Academy)" rel="noopener noreferrer"><i class="o_icon o_icon-fw o_icon_video"> </i> <span>External Video Resources (OpenOLAT Academy)</span></a></li><li id="o_navbar_help_custom2" class="o_navbar_tool o_tool_right"><a class="" href="https://www.youtube.com/watch?v=vs10FAg4KxU&amp;list=PLW94YiC0vWnWBeGmumyYPdBnlE7fXVgZq" target="custom2" title="External Videos (YouTube)" rel="noopener noreferrer"><i class="o_icon o_icon-fw o_icon_external_link"> </i> <span>External Videos (YouTube)</span></a></li><li id="o_navbar_help_custom1" class="o_navbar_tool o_tool_right"><a class="" href="mailto:info@elearning.uni-kiel.de" target="ooCustom1" title="E-Mail-Support" rel="noopener noreferrer"><i class="o_icon o_icon-fw o_icon_external_link"> </i> <span>E-Mail-Support</span></a></li>
+			<li role="presentation" class="dropdown-header">Personal tools</li>
+			 	<li><a class=" o_sel_user_tools-calendar" id="o_c1045011118" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011118:2:1/&#39;,true,true,&#39;cid&#39;,&#39;personal.tool.alt.1045011117&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Calendar"><i class="o_icon o_icon-fw o_icon_calendar o_icon-lg"></i> <span>Calendar</span></a></li>
+			 	<li><a class=" o_sel_user_tools-notifications" id="o_c1045011120" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011120:2:1/&#39;,true,true,&#39;cid&#39;,&#39;personal.tool.alt.1045011119&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Subscriptions"><i class="o_icon o_icon-fw o_icon_notification o_icon-lg"></i> <span>Subscriptions</span></a></li>
+			 	<li><a class=" o_sel_user_tools-userfolder" id="o_c1045011122" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011122:2:1/&#39;,true,true,&#39;cid&#39;,&#39;personal.tool.alt.1045011121&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Personal folder"><i class="o_icon o_icon-fw o_bc_icon o_icon-lg"></i> <span>Personal folder</span></a></li>
+			 	<li><a class=" o_sel_user_tools-notelist" id="o_c1045011124" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011124:2:1/&#39;,true,true,&#39;cid&#39;,&#39;personal.tool.alt.1045011123&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Notes"><i class="o_icon o_icon-fw o_icon_notes o_icon-lg"></i> <span>Notes</span></a></li>
+			 	<li><a class=" o_sel_user_tools-effstatements" id="o_c1045011126" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011126:2:1/&#39;,true,true,&#39;cid&#39;,&#39;personal.tool.alt.1045011125&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Evidences of achievement"><i class="o_icon o_icon-fw o_icon_certificate o_icon-lg"></i> <span>Evidences of achievement</span></a></li>
+			 	<li><a class=" o_sel_user_tools-booking" id="o_c1045011130" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011130:2:1/&#39;,true,true,&#39;cid&#39;,&#39;personal.tool.alt.1045011129&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Bookings"><i class="o_icon o_icon-fw o_icon_booking o_icon-lg"></i> <span>Bookings</span></a></li>
+			 	<li><a class=" o_sel_user_tools-PortfolioV2" id="o_c1045011136" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011136:2:1/&#39;,true,true,&#39;cid&#39;,&#39;personal.tool.alt.1045011135&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Portfolio 2.0"><i class="o_icon o_icon-fw o_ep_icon o_icon-lg"></i> <span>Portfolio 2.0</span></a></li>
+			 	<li><a class=" o_sel_user_tools-Mail" id="o_c1045011138" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011138:2:1/&#39;,true,true,&#39;cid&#39;,&#39;personal.tool.alt.1045011137&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="E-mail"><i class="o_icon o_icon-fw o_icon_mail o_icon-lg"></i> <span>E-mail</span></a></li>
+			<li role="presentation" class="divider"></li>
+			<li role="presentation" class="dropdown-header">Configuration</li>
+			 	<li><a class=" o_sel_user_tools-profil" id="o_c1045011128" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011128:2:1/&#39;,true,true,&#39;cid&#39;,&#39;personal.tool.alt.1045011127&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Profile"><i class="o_icon o_icon-fw o_icon_user o_icon-lg"></i> <span>Profile</span></a></li>
+			 	<li><a class=" o_sel_user_tools-mysettings" id="o_c1045011132" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011132:2:1/&#39;,true,true,&#39;cid&#39;,&#39;personal.tool.alt.1045011131&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="System settings"><i class="o_icon o_icon-fw o_icon_settings o_icon-lg"></i> <span>System settings</span></a></li>
+			 	<li><a class=" o_sel_user_tools-mypassword" id="o_c1045011134" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011134:2:1/&#39;,true,true,&#39;cid&#39;,&#39;personal.tool.alt.1045011133&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Password"><i class="o_icon o_icon-fw o_icon_password o_icon-lg"></i> <span>Password</span></a></li>
+		<li role="presentation" class="divider"></li>
+	<li>
+								<a href="https://lms.uni-kiel.de/auth/2%3A1%3A1045011115%3A2%3A0%3Acid%3Alogout%3A_csrf%3A116c36e4-ec23-4d68-9384-8ac232dd2bba/" class="o_logout" title="Log off from OLAT" onclick="if (window.olatonunload) {olatonunload();}">
+			<i class="o_icon o_icon_logout o_icon-fw"></i> Log out
+		</a>
+	</li>
+</ul></div>
+	</div>
+</div>
+<div id="o_navbar_wrapper" class="o_navbar" role="navigation">
+	<div id="o_navbar_container" class="o_container_offcanvas container-fluid">
+		<a class="o_navbar-brand " href="https://www.openolat.org/" title="OpenOlat - infinite learning" target="_blank"></a>
+		
+		<div class="o_collapse o_navbar-collapse">
+						<ul id="o_c1045011057" class="o_navbar_sites nav o_navbar-nav">
+		
+		
+		
+		
+</ul>
+<script>
+jQuery(document).trigger("oo.nav.sites.modified");
+</script>
+
+			<ul id="o_c1045011058" class="o_navbar_tabs nav o_navbar-nav">
+	
+	
+</ul>
+<script>jQuery(document).trigger("oo.nav.tabs.modified");</script>
+
+							<div id="o_c1045011114"><div id="o_c1045011071" class="o_navbar_tools">
+	<ul id="o_navbar_tools_permanent" class="nav o_navbar-nav o_navbar-right">
+			 <li id="o_navbar_imclient" class="o_navbar_tool "><div id="o_c1045011083"><div id="o_c1045011072">	<div class="o_im_messages">
+		<div id="o_c1045011074"><div id="o_c1045011082"><div id="o_c1045011081"><!-- empty --></div></div>
+
+
+</div>
+	</div>
+
+	<div id="o_im_status" class="dropdown">
+		<a href="https://lms.uni-kiel.de/auth/Document/442171#" class="o_undecorated dropdown-toggle" data-toggle="dropdown" title="Change Instant Messaging status " aria-label="Change Instant Messaging status ">
+			<i class="o_icon o_icon_status_available"></i>
+		</a>
+		<ul class="dropdown-menu dropdown-menu-right" role="menu">
+			<li><span class="o_chelp_wrapper"><a href="https://confluence.openolat.org/display/OO154EN/Chat" class="o_chelp" target="_blank" title="Lookup help for this page in manual"><i class="o_icon o_icon_help"> </i> Help</a></span></li>
+			<li><a class="" id="o_c1045011076" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011076:2:1/&#39;,true,true,&#39;cid&#39;,&#39;presence.available&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;"><i class="o_icon o_icon_status_available o_icon-fw"></i> <span>Available</span></a></li>
+			<li><a class="" id="o_c1045011077" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011077:2:1/&#39;,true,true,&#39;cid&#39;,&#39;presence.dnd&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;"><i class="o_icon o_icon_status_dnd o_icon-fw"></i> <span>Please do not disturb</span></a></li>
+			<li><a class="" id="o_c1045011078" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011078:2:1/&#39;,true,true,&#39;cid&#39;,&#39;presence.unavailable&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;"><i class="o_icon o_icon_status_unavailable o_icon-fw"></i> <span>Not available</span></a></li>
+		</ul>
+	</div>
+
+		<div id="o_im_summary">
+
+
+
+<a class="badge" id="o_c1045011079" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011079:3:1/&#39;,true,true,&#39;cid&#39;,&#39;cmd.roster&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Who else from my group colleagues are logged on to OpenOlat? Select one person you want to chat with."><span>0/5</span></a> <script>
+(function(){ var o_c1045011079 = jQuery('#o_c1045011079');o_c1045011079.click(function(event) { jQuery('#o_c1045011079').each(function(index, el) {;  var href = jQuery(el).attr('href');    if(href.indexOf('x') == -1) jQuery(el).attr('href',href+'x'+event.pageX+'y'+event.pageY+''); });});})();
+</script> <script>
+(function(){ var o_c1045011079 = jQuery('#o_c1045011079');o_c1045011079.click(function(event) { jQuery('#o_c1045011079').each(function(index, el) {;  var href = jQuery(el).attr('href');    if(href.indexOf('x') == -1) jQuery(el).attr('href',href+'x'+event.pageX+'y'+event.pageY+''); });});})();
+</script> <script>
+(function(){ var o_c1045011079 = jQuery('#o_c1045011079');o_c1045011079.click(function(event) { jQuery('#o_c1045011079').each(function(index, el) {;  var href = jQuery(el).attr('href');    if(href.indexOf('x') == -1) jQuery(el).attr('href',href+'x'+event.pageX+'y'+event.pageY+''); });});})();
+</script></div>
+	<div id="o_c1045011080"><!-- empty --></div>
+</div></div></li>
+			 
+			 <li id="o_navbar_search_opener" class="o_navbar_tool  dropdown "><a id="o_search_tool_toggler" href="https://lms.uni-kiel.de/auth/Document/442171#" class="dropdown-toggle" data-toggle="dropdown" title="Search" aria-label="Search">
+	<i class="o_icon o_icon_search o_icon-lg"></i>
+	<span>Search</span>
+</a>
+<ul class="dropdown-menu dropdown-menu-right">          
+	<li id="o_navbar_search" class="o_navbar-form">
+		<div id="o_c1045011096"><div id="o_c1045011095"><form method="post" id="ofo_1045011095" name="ofo_1045011095" action="https://lms.uni-kiel.de/auth/2%3A1%3A1045011095%3A1%3A1%3Aofo_%3Afid/" onsubmit="return o_XHRSubmit(&#39;ofo_1045011095&#39;);" onkeydown="o_submitByEnter(event)"><input type="hidden" id="ofo_1045011095_dispatchuri" name="dispatchuri" value="undefined"><input type="hidden" id="ofo_1045011095_eventval" name="dispatchevent" value="undefined"><input type="hidden" name="_csrf" value="116c36e4-ec23-4d68-9384-8ac232dd2bba"><fieldset id="o_c1045011094" class="o_form form-inline  ">
+
+	<div class="form-group  ">
+			<div id="o_c1045011100" class="form-group  ">
+		<div class="input-group">
+		
+				<div id="o_c1045011104"><input type="text" id="o_fi1045011104" name="o_fi1045011104" class="form-control " size="35" maxlength="255" value="" placeholder="Search" autofocus=""> <script>
+(function() { jQuery('#o_fi1045011104').on('change keypress', {formId:"ofo_1045011095_dispatchuri", hideMessage:false}, setFlexiFormDirtyByListener);})();
+</script></div>
+
+			<span class="input-group-addon">
+				<a class="o_search" id="o_fi1045011109" href="javascript:;" onclick="o_ffEvent(&#39;ofo_1045011095&#39;,&#39;ofo_1045011095_dispatchuri&#39;,&#39;o_fi1045011109&#39;,&#39;ofo_1045011095_eventval&#39;,&#39;2&#39;); " title="Search in: &quot;In OLAT&quot;"><i class="o_icon o_icon-fw o_icon_search o_icon-lg"></i> <span></span></a>
+			</span>
+
+		</div>
+</div>
+	</div>
+</fieldset></form> <script>
+ /* <![CDATA[ */ 
+ (function() {jQuery('#ofo_1045011095').keypress(function(event) {
+ if (13 == event.keyCode) {
+  event.preventDefault();
+  if (this.onsubmit()) { this.submit(); }
+ }
+});
+})();
+ /* ]]> */ 
+</script></div></div>
+	</li>
+</ul>
+<script>
+jQuery('#o_search_tool_toggler').click(function () {
+	setTimeout(function() {
+		jQuery('#o_search_tool_toggler[aria-expanded="true"] + .dropdown-menu #o_navbar_search input:text').focus();	
+	},0);
+});
+</script>
+</li>
+				
+		<li id="o_navbar_my_menu" class="o_portrait">
+			<a id="o_sel_navbar_my_menu_caret" href="javascript:OPOL.navbar.toggleRight();">
+				<div id="o_c1045011113"><div id="o_c1045011112"><div class="o_portrait">
+	<div class="o_portrait_image">
+		<img src="./OpenOlat - null_files/transparent.gif" alt="User profile and visiting card: Ahmed, Faiz" title="User profile and visiting card: Ahmed, Faiz" class="o_portrait_avatar_small" style="background-image : url(&#39;/m/557b945f9fbce4483a040e88b4f2c844/3014131782/portrait_small.jpg&#39;) !important; background-repeat: no-repeat !important;">
+	</div>
+</div>
+ </div></div>
+				<span>Faiz</span>
+				<b class="caret"> </b>
+			</a>
+		</li>
+	</ul>
+</div>
+
+<script>
+jQuery('#o_help_tool_toggler').click(function () {
+	setTimeout(function() {
+		jQuery('#o_help_tool_toggler[aria-expanded="true"] + .dropdown-menu #o_navbar_help_list input:text').focus();	
+	},0);
+});
+</script>
+</div>
+		<ul id="o_navbar_more" class="nav o_navbar-nav o_dropdown_toggle" style="display: block;"><li><a class="dropdown-toggle" data-toggle="dropdown" href="https://lms.uni-kiel.de/auth/Document/442171#">More <b class="caret"></b></a><ul class="dropdown-menu dropdown-menu-right"><li class="site_demo_icon o_dropdown_site">
+			<a class="" id="o_c1045011064" href="https://lms.uni-kiel.de/url/RepositoryEntry/1820983312" onclick="o_XHREvent(&#39;/auth/2:1:1045011064:2:1/&#39;,true,true,&#39;cid&#39;,&#39;t&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Aktuelles &amp; Infos"><span>Aktuelles &amp; Infos</span></a>
+		</li><li class="o_site_repository o_dropdown_site">
+			<a class="" id="o_c1045011066" accesskey="r" href="https://lms.uni-kiel.de/url/MyCoursesSite/0" onclick="o_XHREvent(&#39;/auth/2:1:1045011066:2:1/&#39;,true,true,&#39;cid&#39;,&#39;t&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Courses"><span>Courses</span></a>
+		</li><li class="o_site_groups o_dropdown_site">
+			<a class="" id="o_c1045011068" accesskey="g" href="https://lms.uni-kiel.de/url/GroupsSite/0" onclick="o_XHREvent(&#39;/auth/2:1:1045011068:2:1/&#39;,true,true,&#39;cid&#39;,&#39;t&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Work with your personal learning and project groups."><span>Groups</span></a>
+		</li><li class="site_demo_icon o_dropdown_site">
+			<a class="" id="o_c1045011070" href="https://lms.uni-kiel.de/url/RepositoryEntry/3637051457" onclick="o_XHREvent(&#39;/auth/2:1:1045011070:2:1/&#39;,true,true,&#39;cid&#39;,&#39;t&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Learning Videos"><span>Learning Videos</span></a>
+		</li><li class="divider o_dropdown_site"></li><li class="active o_dropdown_tab">
+		<a class="" id="o_c1045011328" accesskey="s" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011328:2:1/&#39;,true,true,&#39;cid&#39;,&#39;a0&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;"><i class="o_icon o_icon-fw o_Document_icon"></i> <span></span></a>
+			<a class="o_navbar_tab_close" id="o_c1045011329" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011329:2:1/&#39;,true,true,&#39;cid&#39;,&#39;c0&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Close"><i class="o_icon o_icon_close_tab"></i> <span></span></a>	 	</li></ul></li></ul></div>
+		
+	</div>
+</div>
+<div id="o_container_page_width_toggler">
+	<div id="o_go_standard_width" title="Use standard width for content, optimized for reading content" class="btn btn-primary btn-xs o_noprint"><i class="o_icon o_icon_width_collapse o_icon-fw"> </i></div>
+	<div id="o_go_full_width" title="Use standard width for content, optimized for reading content" class="btn btn-default btn-xs o_noprint"><i class="o_icon o_icon_width_expand o_icon-fw"> </i></div>
+</div>
+<div><script>
+jQuery(document).ready(function() {
+	jQuery("#o_go_standard_width").click(function() { OPOL.setContainerFullWidth(0); o_XHRNFEvent('/auth/2:1:1045011056:2:1/','cid','width.standard','_csrf','116c36e4-ec23-4d68-9384-8ac232dd2bba','no-response','oo-no-response'); });
+	jQuery("#o_go_full_width").click(function() { OPOL.setContainerFullWidth(1); o_XHRNFEvent('/auth/2:1:1045011056:2:1/','cid','width.full','_csrf','116c36e4-ec23-4d68-9384-8ac232dd2bba','no-response','oo-no-response'); });
+});
+</script></div>
+<div id="o_c1045011062"><!-- empty --></div>
+
+<div id="o_main_wrapper">
+	<div id="o_main_container" class="o_container_offcanvas container-fluid">
+		<div id="o_c1045011142"><div id="o_c1045011330"><div id="o_c1045011327"><div id="o_c1045011294">	<div id="o_c1045011326"><div id="o_c1045011295"><div class="o_doceditor ">
+		<div id="o_c1045011325"><div id="o_c1045011324"><div class="o_file_editor">
+		<div id="o_c1045011301"><div id="o_c1045011300"><form method="post" id="ofo_1045011300" name="ofo_1045011300" action="https://lms.uni-kiel.de/auth/2%3A1%3A1045011300%3A1%3A1%3Aofo_%3Afid/" onsubmit="return o_XHRSubmit(&#39;ofo_1045011300&#39;);" onkeydown="o_submitByEnter(event)"><input type="hidden" id="ofo_1045011300_dispatchuri" name="dispatchuri" value="undefined"><input type="hidden" id="ofo_1045011300_eventval" name="dispatchevent" value="undefined"><input type="hidden" name="_csrf" value="116c36e4-ec23-4d68-9384-8ac232dd2bba"><fieldset id="o_c1045011299" class="o_form form  ">
+
+
+	<div class="form-group   clearfix">
+			<div id="o_c1045011304"><label class="control-label " id="o_c1045011311" for="o_fi1045011305">Hausaufgabe1.txt</label></div>
+			<div id="o_c1045011305"><textarea id="o_fi1045011305" name="o_fi1045011305" class="form-control textarea" cols="100" rows="25" style="height: 512px; overflow-y: hidden;"></textarea> <script>
+ /* <![CDATA[ */ 
+(function() {var o_fi1045011305 = jQuery('#o_fi1045011305'); o_fi1045011305.on('keypress', function(event, target){if (13 == event.keyCode) {event.stopPropagation()} })})();
+ /* ]]> */ 
+</script><script>
+/* <![CDATA[ */
+jQuery(function(){
+ jQuery('#o_fi1045011305').each(function () {
+  this.setAttribute('style', 'height:' + (jQuery(this).outerHeight() > this.scrollHeight ? jQuery(this).outerHeight() : this.scrollHeight) + 'px;overflow-y:hidden;');
+ }).on('input', function () {
+  this.style.height = 'auto';
+  this.style.height = (this.scrollHeight < 500 ? 500 : this.scrollHeight) + 'px';
+ });
+});
+/* ]]> */
+</script>
+ <script>
+(function() { jQuery('#o_fi1045011305').on('change keypress', {formId:"ofo_1045011300_dispatchuri", hideMessage:false}, setFlexiFormDirtyByListener);})();
+</script></div>
+	</div>
+	<div class="form-group  o_button_group  clearfix">
+			<div id="o_c1045011310" class="form-inline  o_button_group">
+	<a class="btn btn-default" id="o_fi1045011315" href="javascript:;" onclick="o_ffEvent(&#39;ofo_1045011300&#39;,&#39;ofo_1045011300_dispatchuri&#39;,&#39;o_fi1045011315&#39;,&#39;ofo_1045011300_eventval&#39;,&#39;2&#39;); "><span>Save</span></a>
+	<a class="btn btn-default" id="o_fi1045011319" href="javascript:;" onclick="o_ffEvent(&#39;ofo_1045011300&#39;,&#39;ofo_1045011300_dispatchuri&#39;,&#39;o_fi1045011319&#39;,&#39;ofo_1045011300_eventval&#39;,&#39;2&#39;); "><span>Save and close</span></a>
+	<a class="btn btn-default" id="o_fi1045011323" href="javascript:;" onclick="o_ffEvent(&#39;ofo_1045011300&#39;,&#39;ofo_1045011300_dispatchuri&#39;,&#39;o_fi1045011323&#39;,&#39;ofo_1045011300_eventval&#39;,&#39;2&#39;); "><span>Close</span></a>
+</div>
+	</div>
+</fieldset></form> <script>
+ /* <![CDATA[ */ 
+ (function() {jQuery('#ofo_1045011300').keypress(function(event) {
+ if (13 == event.keyCode) {
+  event.preventDefault();
+  if (this.onsubmit()) { this.submit(); }
+ }
+});
+})();
+ /* ]]> */ 
+</script></div></div>
+</div>
+</div></div>
+		<script>
+		/* <![CDATA[ */
+						var vh = window.innerHeight * 0.01;
+			document.documentElement.style.setProperty('--doceditorvh', `${vh}px`);
+			jQuery(document).on("oo.window.resize.after", () => {
+				var vh = window.innerHeight * 0.01;
+				document.documentElement.style.setProperty('--doceditorvh', `${vh}px`);
+			});
+		/* ]]> */
+		</script>
+</div></div></div>
+</div></div></div></div>
+		<a id="o_toplink" href="https://lms.uni-kiel.de/auth/Document/442171#o_top" onclick="o_scrollToElement(&#39;#o_top&#39;);" title="Go to top of page">
+			<i class="o_icon o_icon_top"></i> 
+			Go to top
+		</a>	
+	</div>
+</div>
+
+<div id="o_footer_wrapper">
+	<div id="o_footer_container" class="o_container_offcanvas container-fluid">
+		<div id="o_c1045011147"><div id="o_c1045011143"><div id="o_footer_user" class="clearfix">
+		<span id="o_username">Logged in as <i>Ahmed, Faiz</i></span>
+	<span id="o_counter">(<span id="o_c1045011144">
+
+3392</span> People are online)</span>
+		<div id="o_c1045011146"><div id="o_c1045011145"><script>
+function o_shareSocialUrl() {
+	if(o_info.businessPath && o_info.businessPath.length > 0) return o_info.businessPath;
+	return 'https://lms.uni-kiel.de';
+} 
+function o_shareSocialTitle() {
+	return document.title;
+}
+function o_shareCallout() {
+	return '<p><input id="callout_share_link_in" type="text" name="cl_share_link" value="' + o_shareSocialUrl() + '" size="64" /></p>';
+}
+</script>
+
+<div id="o_share">
+
+	<a id="o_share_social" href="javascript:;" title="Share link to this page" aria-label="Share link to this page" data-original-title="Share link to this page">
+		<i class="o_icon o_icon_share_social o_icon-lg"></i>
+	</a>
+	<div id="o_share_social_wrapper" class="hide"><div id="o_share_social_container">
+			<a id="o_mail" href="javascript: window.location.href=&#39;mailto:?subject=&#39; + encodeURIComponent(o_shareSocialTitle()) + &#39;&amp;body=&#39; + encodeURIComponent(o_shareSocialUrl());" title="Share link with mail" aria-label="Share link with mail">
+ 				<i class="o_icon o_icon_mailto o_icon-lg"></i>
+ 			</a>
+	</div></div>
+	<script>
+	jQuery(function() {
+		o_shareLinkPopup('o_share_social', jQuery('#o_share_social_wrapper').html());
+	});
+	</script>
+		<a id="o_link" href="javascript:;" title="Copy link" aria-label="Copy link" data-original-title="Copy link">
+			<i class="o_icon o_icon_link o_icon-lg"></i>
+		</a>
+		<a id="o_qrcode" href="javascript:;" title="Copy QR code" aria-label="Copy QR code" data-original-title="Copy QR code">
+			<i class="o_icon o_icon_qrcode o_icon-lg"></i>
+		</a>
+		<script>
+		jQuery(function() {
+			o_shareLinkPopup('o_link', o_shareCallout);
+			o_QRCodePopup('o_qrcode', o_shareSocialUrl);
+		});
+		</script>
+		<a id="o_landingpage" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:1045011145:2:1/&#39;,false,false,&#39;cid&#39;,&#39;setLandingPage&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Set current page as personal start page in profile" aria-label="Set current page as personal start page in profile">
+		<i class="o_icon o_icon_landingpage o_icon-lg"></i>
+	</a>
+</div>
+</div></div>
+</div>
+	<div id="o_footer_impressum">
+		<a class="" target="_blank" id="o_co_footer_dmz_impressum" href="https://lms.uni-kiel.de/auth/2%3A1%3Ao_footer_dmz_impressum%3A1%3A0%3Acid%3Atopnav.impressum%3A_csrf%3A116c36e4-ec23-4d68-9384-8ac232dd2bba/" onclick="return o2cl();" title="Imprint"><i class="o_icon o_icon_impress o_icon-lg"></i> <span>Imprint</span></a> <script>
+(function(){ var o_co_footer_dmz_impressum = jQuery('#o_co_footer_dmz_impressum');if (o_co_footer_dmz_impressum) o_co_footer_dmz_impressum.click(function() {setTimeout(removeBusyAfterDownload,1200)});})();
+</script>
+	</div>
+<div id="o_footer_powered" class="clearfix"><a id="cau_footer_elk" href="http://www.elearning.uni-kiel.de/" target="_blank" title="eLK.Medien"><img src="./OpenOlat - null_files/powerd_by_120x30.png" width="120" height="30"></a>
+	<a href="https://www.openolat.org/" target="_blank" title="OpenOlat - infinite learning" rel="noopener noreferrer">
+		<img src="./OpenOlat - null_files/openolat_powerd_by_120x30.png" alt="powered by OpenOlat">
+	</a>
+</div>
+<div id="o_footer_version" class="clearfix">
+	<a class="" id="o_comenu_about" href="javascript:;" onclick="o_XHREvent(&#39;/auth/2:1:omenu_about:1:1/&#39;,true,true,&#39;cid&#39;,&#39;about&#39;,&#39;_csrf&#39;,&#39;116c36e4-ec23-4d68-9384-8ac232dd2bba&#39;); return false;" title="Information on OpenOlat Build (eafa206:eafa206193cafd39cbc0e332af1b0af2b54403d1)"><span>OpenOlat&nbsp;15.4.4</span></a>
+</div>	
+</div></div>
+	</div>
+</div>
+
+<div id="o_c1045011140"><div id="o_c1045011331"><!-- empty --></div></div>
+<div id="o_c1045011141"><div id="o_c1045011332"><!-- empty --></div></div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="o_form_dirty_message">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title">Unsaved form data</h4>
+      </div>
+      <div class="modal-body">
+      	<p class="o_warning">
+			Attention! You have not saved this form yet.
+		</p>
+      	<p>
+			By clicking <strong>Do not save data</strong> you will exit the form without saving. <strong>Changes you made on this page will be lost</strong>
+		</p>
+      	<p>
+			By clicking <strong>Back to form</strong> you will get back to the form where you can save it. 
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary pull-left o_form_dirty_back" data-dismiss="modal"><i class="o_icon o_icon-fw o_icon_back"> </i>Back to form</button>
+        <button type="button" class="btn btn btn-danger o_form_dirty_ignore"><i class="o_icon o_icon-fw o_icon_clear_all"> </i>Do not save data</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="o_ajax_busy">
+	<i class="o_icon o_icon_busy o_icon-5x o_icon-spin"></i>	
+	<div id="o_ajax_progress">
+		<div class="o_label">Uploading data...</div>
+		<div class="progress"><div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div></div>
+		<div class="o_progress_info text-muted small"> </div>
+	</div>
+</div>
+
+<div id="o_width_1em" style="width:1em; position: absolute; left: -1000px;"></div>
+<div><script>
+// init size and listen to text resize events
+jQuery(function() {
+	o_initEmPxFactor(); 
+});
+</script></div>
+</body></html>

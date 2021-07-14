@@ -1,0 +1,73 @@
+4
+-----------
+1. dein
+2. seine
+3. ihre
+4. seine
+5. sein
+6. sein
+7. Ihre
+8. ihre
+9. meine
+10. Ihr
+11. mein
+--------------
+5
+-------------
+1. Ihr
+2. sein
+3. dein
+4. ihre
+5. meine
+6. deine
+7. Ihr
+8. mein
+9. seine
+10. Ihr
+-------------------
+6
+-------------
+die Zeitungen
+die Computer
+der SchlUssel
+das Autos
+der Kalender
+die Brille
+die Tasse
+die Handys
+der StUhl
+die Tasche
+die Stifte
+die Regenschirme
+die Bilder
+das Medikament
+die Kaffemaschine
+das Laptop
+------------------------
+7
+---
+1. 80
+2. 32
+3. 16
+4. 70
+5. 83
+6. 105
+7. 54
+8. 231
+9. 399
+10. 17
+11. 14
+12. 36
+13. 49
+---------
+8
+----
+1. acht
+2. vierundneunzig
+3.achtzehn
+4. zwOlf
+5. fUnfzig
+6. sechshundert
+7. dreitausend
+8. zwantausend
+
